@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header style={styles.header}>
       <div style={styles.logo}>
-        <Link to="/" style={styles.logoLink}>Hotel Reservation</Link>
+        <Link to="/" style={styles.logoLink}>WaveInn</Link>
       </div>
       <nav style={styles.nav}>
         {user ? (
